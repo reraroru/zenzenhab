@@ -1,0 +1,99 @@
+body {
+  background-color: #FEF3E2;
+  color: #606676;
+  /*define standard font*/
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 1rem;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.main h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container > div {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.container img {
+  float: left;
+  margin-right: 10px;
+  
+}
+
+.container p {
+  margin: 0px;
+}
+
+.container h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.shade1 {
+  background-color: #708871;
+}
+
+.shade2 {
+  background-color: #BEC6A0;
+}
+
+.footer > ul {
+  list-style-type: none;
+  padding: 0px;
+  float: right;
+  font-size: small;
+}
+
+.footer li {
+  display: inline;
+  margin: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #606676;
+}
+
+.contact ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.contact ul li {
+  display: inline;
+  margin: 10px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #708871;
+}
+
+/** 
+define deviating font below if needed 
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+**/
+/* .montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+
